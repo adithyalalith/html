@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    background: #;
+    height: 100%;
+    width: 100%;
+    background: url(./nasa-Q1p7bh3SHj8-unsplash.jpg) no-repeat center fixed;
+    color: #fff;
+    
+}
+.container{
+    background: url(./nasa-Q1p7bh3SHj8-unsplash.jpg) no-repeat  fixed center;   
+    width: 100%;
+    height: 100%;
+}
+
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+    text-decoration: none;
+    
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 0 38px 20px;
+    cursor: pointer;
+
+}
+
+.logo img{
+    width: 80px;
+    height: 40px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+
+.relative{
+    color: #19dafa !important;
+    font-size: 30px;
+    
+    
+}
+.reas{
+    color: #cc66ff !important;
+    font-size: 30px;
+}
+.rev{
+    color: #19dafa !important;
+    font-size: 30px;
+    
+}
+.yup{
+    color: #cc66ff !important;
+    font-size: 30px;
+}
+.signup-btn{
+    font-size: 30px;
+    top: 50px;
+    right: 10px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 4px solid transparent;
+    border-radius: 20px;
+    background-image: radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+
+.signup-btn span{
+    display: block;
+    padding: 6px 22px;
+}
+
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: #fff;
+}
+.app-text{
+    width: 50%;
+    float: left;
+}
+.app-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 50px;
+}
+.app-text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #919191;
+}
+.app-picture{
+    width: 50%;
+    float:right;
+}
+.app-picture img{
+    width: 100%;
+    margin-top: -20px;
+    padding-left: 50px;
+    
+    
+}
+.form-box{
+    height: 400px;
+    width: 340px;
+    position: relative;
+    padding: 1px;
+    background: rgba(255,255,255,0.2);
+    align-content: center;
+    overflow: hidden;
+    margin: 6% auto;
+    float: right;
+    left:100%;  
+    border-radius: 10px;
+    top: -180px;
+    
+}
+.input-group{
+    top: 10px;
+    position: absolute;
+    padding: 30px;
+    align-content: center;
+    align-items: center;
+}
+
+.input-field{
+    width: 100%;
+    padding: 20px 5px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+.submit-btn{
+    width: 65%;
+    height: 40px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    background: radial-gradient(circle at top left,#fd00da,#19d7f8);
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 25px;
+    font-size: 20px;
+    text-align: center;
+    transition: .2s;
+}
